@@ -63,3 +63,15 @@ INSERT INTO asignaturas (nombre) VALUES
 ('Matemáticas I'), ('Lengua Española'), ('Historia de España'), ('Inglés B1'), 
 ('Biología Geología'), ('Física y Química'), ('Educación Física'), ('Informática'), 
 ('Dibujo Técnico'), ('Filosofía'), ('Economía'), ('Francés');
+
+INSERT INTO alumnos (nombre, email) VALUES 
+('Ana García', 'ana.garcia@email.com'),
+('Juan Pérez', 'juan.perez@email.com'),
+('María López', 'materia.lopez@email.com'),
+('Carlos Ruiz', 'carlos.ruiz@email.com'),
+('Lucía Fernández', 'lucia.f@email.com'),
+('Diego Torres', 'diego.t@email.com'),
+('Laura Morales', 'laura.m@email.com'),
+('Pablo Castro', 'pablo.c@email.com'),
+('Elena Sanz', 'elena.s@email.com'),
+('Sergio Peña', 'sergio.p@email.com');
