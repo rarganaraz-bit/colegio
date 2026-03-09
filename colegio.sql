@@ -47,15 +47,18 @@ CREATE TABLE clases (
 
 
 
+-- Meter Profesores
 INSERT INTO profesores (nombre, especialidad) VALUES 
 ('García López', 'Matemáticas'), ('Marta Sánchez', 'Lengua'), ('Jordi Cruz', 'Cocina'), 
 ('Elena Nito', 'Historia'), ('Paco Merlo', 'Gimnasia'), ('Ana Tomía', 'Biología'), 
 ('Luz Cuesta', 'Física'), ('Aitor Tilla', 'Inglés'), ('Esteban Quito', 'Geografía'), ('Sara Mago', 'Arte');
 
+-- Meter Aulas
 INSERT INTO aulas (numero, capacidad, edificio) VALUES 
 ('101', 30, 'Principal'), ('102', 25, 'Principal'), ('201', 20, 'Norte'), ('202', 20, 'Norte'),
 ('Lab1', 15, 'Ciencias'), ('Lab2', 15, 'Ciencias'), ('Inf1', 25, 'Tecnología'), ('Gym', 50, 'Deportes');
 
+-- Meter Asignaturas
 INSERT INTO asignaturas (nombre) VALUES 
 ('Matemáticas I'), ('Lengua Española'), ('Historia de España'), ('Inglés B1'), 
 ('Biología Geología'), ('Física y Química'), ('Educación Física'), ('Informática'), 
