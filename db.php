@@ -1,13 +1,4 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "2007"; 
-$db   = "colegio";
-
-$conexion = mysqli_connect($host, $user, $pass, $db);
-
-if (!$conexion) {
-    
-    die("Fallo de conexión: " . mysqli_connect_error());
-}
+$conexion = mysqli_connect("localhost", "root", "2007", "colegio");
+if (!$conexion) { die("Error: " . mysqli_connect_error()); }
 ?>
